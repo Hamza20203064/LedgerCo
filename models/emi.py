@@ -6,6 +6,8 @@
 class Emi(object):
     def __init__(self):
         self.id = None
+        self.emi_no = None
+        self.bank_name = None
         self.rate_of_interest = None
         self.emi_amount = None
 

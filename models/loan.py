@@ -1,11 +1,9 @@
-# borrower name
-# bank name
-# i
+# Format - LOAN BANK_NAME BORROWER_NAME PRINCIPAL NO_OF_YEARS RATE_OF_INTEREST
 class Loan(object):
     def __init__(self):
         self.id = None
-        self.borrower_name = None
         self.bank_name = None
+        self.borrower_name = None
         self.principal_amount = None
         self.interest_rate = None
         self.years = None
