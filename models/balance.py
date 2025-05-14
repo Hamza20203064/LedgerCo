@@ -1,7 +1,7 @@
 # Input format - BALANCE BANK_NAME BORROWER_NAME EMI_NO
 # Output format - BANK_NAME BORROWER_NAME AMOUNT_PAID NO_OF_EMIS_LEFT
 
-class Balance:
+class Balance(object):
     def __init__(self, balance: float, bank_name: str, borrower_name: str, emi_no: int):
         self.id = None
         self.balance = balance
